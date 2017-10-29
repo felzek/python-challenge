@@ -41,3 +41,7 @@ with open(files) as revenue_data:
 
     print(max(revenue_change))
     print(min(revenue_change))
+
+    with open(output_path,"w") as txtfile:
+
+    txt_file.write(output_path)
